@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Digital Public Goods Alliance</title>
+	<title>  Embracing openness in delivering an API for digital public goods &raquo; Digital Public Goods Alliance</title>
 	<script>
 		var BLOG_URL = 'https://prashansatw.github.io/demo-workflow-test/';
 		var TEMPLATE_URL = '/wp-content/themes/dpga';
@@ -16,7 +16,7 @@
 <link rel='stylesheet' id='dpga-style-css'  href='/wp-content/themes/dpga/style.css?ver=5.7.2' type='text/css' media='all' />
 <link rel='stylesheet' id='dpga-fontello-css'  href='/wp-content/themes/dpga/fontello/css/fontello.css?ver=1622233620' type='text/css' media='all' />
 <link rel='stylesheet' id='dpga-style-main-css'  href='/wp-content/themes/dpga/css/style.css?ver=1622233620' type='text/css' media='all' />
-<link rel="canonical" href="/" />
+<link rel="canonical" href="/blog/embracing-openness-in-delivering-an-api-for-digital-public-goods/" />
    <script type="text/javascript">
    var _gaq = _gaq || [];
    _gaq.push(['_setAccount', 'UA-143534016-1']);
@@ -29,7 +29,7 @@
    </script>
 </head>
 
-<body class="home page-template-default page page-id-893 dpga-template-">
+<body class="post-template-default single single-post postid-777 single-format-standard">
 	<div id="page">
 		<header id="header">
 			<nav class="navbar navbar-expand-xl navbar-light">
@@ -43,7 +43,7 @@
 					</a>
 
 					<div class=" navbar-collapse" id="navbarNavDropdown">
-						<div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-51" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-51"><a href="/" aria-current="page">Home</a></li>
+						<div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-51" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51"><a href="/">Home</a></li>
 <li id="menu-item-186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-186"><a href="/who-we-are/">Who We Are</a>
 <ul class="sub-menu">
 	<li id="menu-item-1587" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1587"><a href="/governance/">Governance</a></li>
@@ -76,74 +76,74 @@
 			</nav>
 		</header><main role="main" id="main">
 	<div class="content-wrap">
-		<div class="body-content">
-	
-<div class="wp-block-columns are-vertically-aligned-center">
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:5%">
-<hr class="v">
-</div>
+			<header>
+		<h1>Embracing openness in delivering an API for digital public goods</h1>
+					<div class="entry-meta">
+				<b>
+					<span class="posted-on"><time class="entry-date published updated" datetime="2021-02-10T17:45:56+00:00">February 10, 2021</time></span>				</b>
+			</div>
+				<img width="1024" height="444" src="https://s3.amazonaws.com/dpg-website/wp-content/uploads/2021/02/10173420/IMG_9107.jpg" class="attachment-large size-large wp-post-image" alt="" loading="lazy" />	</header>
+	<div class="body-content">
+		
+<p>Since day one, the Digital Public Goods Alliance (DPGA), has embraced open source values including transparency, openness, and community. The DPGA seeks to advance open source software, open data, open AI models, open standards and open content as solutions to create a more equitable world; and, simply put, we couldn&#8217;t do it any other way than the <a href="https://opensource.com/open-source-way">open source way</a>. Today, we are excited to announce the release of the <a href="https://github.com/unicef/publicgoods-api">Digital Public Goods API</a>. This article recounts the journey of how we got here.&nbsp;</p>
 
 
 
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:52%">
-<header><h1>Promoting digital public goods to create a more equitable world</h1><header></header></header>
+<p>One of the first actions we embarked on was to build a <a href="https://digitalpublicgoods.net/registry/">registry</a> of digital public goods to aid their discovery. Doing so was partly a landscaping effort to know what projects already exist that are working towards a more just world, and partly a community-building effort, welcoming input by a broad set of interested parties and contributors.</p>
 
 
 
-<div class="wp-block-buttons is-content-justification-left">
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link" href="https://digitalpublicgoods.net/blog/state-of-the-digital-public-goods-ecosystem-2022-report/" target="_blank" rel="noreferrer noopener">Read the 2022 State of the DPG Ecosystem Report</a></div>
-</div>
-</div>
+<p>Architecturally, the industry-standard would have been to create a database, build a well-polished front-end website, and offer an open API that welcomed others to contribute. However, that approach was neither quite right, nor good enough. This is in part because whoever runs the database would ultimately own the data, as it would inevitably be hosted on closed infrastructure (insert here any cloud hosting provider or in-premises computing). This approach is simply not transparent enough. As a technical co-lead for the DPGA, I knew we could do better.</p>
 
 
 
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:32%">
-<figure class="wp-block-image size-large is-style-mask1"><img src="https://s3.amazonaws.com/dpg-website/wp-content/uploads/2021/05/27104936/home-1.jpg" alt="" class="wp-image-909"/></figure>
-</div>
+<p>Enter the beauty and simplicity of a collection of text files hosted on a version control system. The format of text files was <a href="https://www.json.org/">JSON</a>, a lightweight data-interchange format. This makes it easy for humans to read and write. It is also easy for machines to parse and generate. You have the best of both worlds. 🙌</p>
 
 
 
-<div class="wp-block-column" style="flex-basis:5%"></div>
-</div>
+<p>Due to its popularity and common use throughout the global developer community, the version control system of choice was git with hosting on GitHub. While we didn’t invest much initially on the “well-polished website” aspect of our infrastructure, we reaped the benefits from using GitHub early on. On GitHub, any code repository comes by default with the functionality of issues and <a href="https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests">pull requests</a>, providing a transparent communication channel to discuss potential changes with collaborators. Plus, all the data is easily accessible to read, inspect and modify. That was indeed embracing the open source way.</p>
 
 
 
-<a href="#more" title="Read more" class="more-link"><i class="icon-down-dir"></i></a>
+<p>If you wonder about data consistency, conformance, and integrity, you may be concerned at the thought of managing a large dataset with plain text files. So was I. That’s where having a data schema in the form of a <a href="https://json-schema.org/">JSON schema</a> ensures data validation and checks all of the above dimensions of data quality. Pair such a JSON schema with a continuous integration (CI) pipeline to automate the data workflow, and the result is a very strong and fully transparent backend.&nbsp;</p>
 
 
 
-<div class="wp-block-columns">
-<div class="wp-block-column" style="flex-basis:15%"></div>
+<p>As all this data is hosted on a public code repository, we postponed the offering of a dedicated API, since the data is already publicly available on the <a href="https://github.com/unicef/publicgoods-candidates">DPG repository</a>. Also, GitHub already offers their own API, providing endpoints to access the raw contents of what is available through the website. Yet, we have been longing to complement our offerings with a data API that could enhance our collaborative efforts and make it easier for others to build on this growing dataset. The beauty of storing all our data in JSON is that it is the same format that REST APIs use. Thus, little work was required to repackage this data and serve it through an API. In a clever twist of repurposing the infrastructure that GitHub provides for free through their GitHub Pages (initially conceived as a hosting for static websites—primarily documentation sites), one can pre-generate all possible API endpoints, create the underlying folder structure to host the content for all these endpoints as JSON files, and have a very robust hosting for an API that leverages GitHub’s massive Content Delivery Network (CDN) to ensure high availability and low latency all over the world.</p>
 
 
 
-<div class="wp-block-column" style="flex-basis:70%">
-<blockquote class="wp-block-quote has-text-align-center" id="more"><p>The Digital Public Goods Alliance is a multi-stakeholder initiative with a mission to accelerate the attainment of the sustainable development goals in low- and middle-income countries by facilitating the discovery, development, use of, and investment in digital public goods.</p></blockquote>
-</div>
+<p>This brings us to this week, when the DPGA releases its <a href="https://api.digitalpublicgoods.net/">API</a>, with its accompanying <a href="https://github.com/unicef/publicgoods-api">public repository</a>. We welcome your integrations while continuing to build together on this dataset for a more equitable world.</p>
 
 
 
-<div class="wp-block-column" style="flex-basis:15%"></div>
-</div>
+<hr class="wp-block-separator"/>
 
 
 
-<div style="height:35px" aria-hidden="true" class="wp-block-spacer"></div>
+<p>Are you a software developer, product manager, UI/UX designer, or community manager that enjoys a creative exploration of innovation and technology while contributing to digital public goods for a more equitable world, including the benefit of children worldwide? Stay tuned because DPGA Co-Host UNICEF&#8217;s Office of Innovation will be opening positions in the coming weeks, keep an eye on their <a href="https://twitter.com/unicefinnovate">Twitter</a> and <a href="https://www.linkedin.com/showcase/unicef-innovation/">LinkedIn</a> feeds for more information.</p>
 
 
 
-<div class="wp-block-buttons align-center">
-<div class="wp-block-button"><a class="wp-block-button__link" href="https://digitalpublicgoods.net/who-we-are/">Learn More</a></div>
-</div>
+<hr class="wp-block-separator"/>
 
 
 
-<div style="height:75px" aria-hidden="true" class="wp-block-spacer"></div>
+<p><strong>Follow</strong> our<a href="https://medium.com/digital-public-goods"> blog</a>, or <strong>join </strong>our<a href="https://mailchi.mp/4ae88231c358/digital-public-goods-mailing-list"> mailing list</a>.</p>
 
 
 
-<p></p>
-</div>			</div>
+<p><strong>Learn more about the Digital Public Goods Alliance</strong> on our<a href="https://digitalpublicgoods.net/"> website</a>.</p>
+
+
+
+<p><strong>Nominate digital public goods</strong> <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGzlBiecPBlVvJXmcMKXF3zdxASY8vGnrdnNNwp7fVKb169A/viewform?usp=sf_link">through this form</a>.<br></p>
+
+
+
+<p class="has-small-font-size">Cover Image: &#8220;Embracing openness at Bryce Canyon National Park in winter&#8221; by Victor Grau Serrat is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>.</p>
+	</div>
+			</div>
 </main>
 </div>
 <footer id="footer">
